@@ -1,0 +1,62 @@
+2014-05-19 19:47:29 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-05-19 19:47:29 SpurdoCoin version v0.8.6.0-unk-beta ()
+2014-05-19 19:47:29 Using OpenSSL version OpenSSL 1.0.1e 11 Feb 2013
+2014-05-19 19:47:29 Default data directory .
+2014-05-19 19:47:29 Using data directory .
+2014-05-19 19:47:29 Using at most 125 connections (1024 file descriptors available)
+2014-05-19 19:47:29 init message: Verifying wallet...
+2014-05-19 19:47:29 dbenv.open LogDir=./database ErrorFile=./db.log
+2014-05-19 19:47:29 Bound to [::]:11070
+2014-05-19 19:47:29 Bound to 0.0.0.0:11070
+2014-05-19 19:47:29 init message: Loading block index...
+2014-05-19 19:47:29 Opening LevelDB in ./blocks/index
+2014-05-19 19:47:29 Opened LevelDB successfully
+2014-05-19 19:47:29 Opening LevelDB in ./chainstate
+2014-05-19 19:47:29 Opened LevelDB successfully
+2014-05-19 19:47:29 LoadBlockIndexDB(): last block file = 0
+2014-05-19 19:47:29 LoadBlockIndexDB(): transaction index disabled
+2014-05-19 19:47:29 Initializing databases...
+2014-05-19 19:47:29 00000fb7442831fb750213c94cc93e2048e36d8f6afd4cb74c404baaf74ce5cf
+2014-05-19 19:47:29 00000fb7442831fb750213c94cc93e2048e36d8f6afd4cb74c404baaf74ce5cf
+2014-05-19 19:47:29 3967655acaac50e08998db3791f008af094844b2767b71a5a091894cfac383b0
+2014-05-19 19:47:29 CBlock(hash=00000fb7442831fb750213c94cc93e2048e36d8f6afd4cb74c404baaf74ce5cf, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=3967655acaac50e08998db3791f008af094844b2767b71a5a091894cfac383b0, nTime=1400498599, nBits=1e0ffff0, nNonce=2084826830, vtx=1)
+2014-05-19 19:47:29   CTransaction(hash=3967655acaac50e08998db3791f008af094844b2767b71a5a091894cfac383b0, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01041e4c6175616e7461696e2070697469206f6c6c61206a75686c617061697661)
+    CTxOut(nValue=50.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+  vMerkleTree: 3967655acaac50e08998db3791f008af094844b2767b71a5a091894cfac383b0 
+2014-05-19 19:47:29 Pre-allocating up to position 0x1000000 in blk00000.dat
+2014-05-19 19:47:29 ERROR: CheckProofOfWork() : nBits below minimum work
+2014-05-19 19:47:29 ERROR: CBlock::ReadFromDisk() : errors in block header
+2014-05-19 19:47:29 *** Failed to read block
+2014-05-19 19:47:29 Error: Failed to read block
+2014-05-19 19:47:29 ERROR: LoadBlockIndex() : genesis block not accepted
+2014-05-19 19:47:29 : Error initializing block database.
+Do you want to rebuild the block database now?
+2014-05-19 19:47:29 Shutdown : In progress...
+2014-05-19 19:47:29 Flush(false)
+2014-05-19 19:47:29 DBFlush(false) ended               0ms
+2014-05-19 19:47:29 StopNode()
+2014-05-19 19:47:29 Flushed 0 addresses to peers.dat  3ms
+2014-05-19 19:47:29 Committing 0 changed transactions to coin database...
+2014-05-19 19:47:29 Flush(true)
+2014-05-19 19:47:29 DBFlush(true) ended               0ms
+2014-05-19 19:47:29 Shutdown : done
